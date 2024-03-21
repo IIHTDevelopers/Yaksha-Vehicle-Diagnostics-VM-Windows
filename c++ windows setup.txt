@@ -1,0 +1,35 @@
+https://github.com/catchorg/Catch2/tree/v2.x
+https://www.msys2.org/
+
+
+
+
+https://github.com/catchorg/Catch2?tab=readme-ov-file
+
+
+====================================================
+for installing MSYS2
+download MSYS2 using https://www.msys2.org/
+1. open mingw64 shell
+2. pacman -Syu
+3. pacman -S mingw-w64-x86_64-toolchain
+4. select the 3rd (gcc) option
+5. add "C:\msys64\mingw64\bin" in path in System Variables in environemnt variables
+
+
+
+====================================================
+for executing project
+
+1. g++ VehicleDiagnostics.cpp -0 vehicleDiagnostics
+2. ./vehicleDiagnostics
+
+
+====================================================
+for executing test cases:
+download https://github.com/catchorg/Catch2/tree/v2.x
+
+1. Copy catch.hpp into your project's directory
+2. write test cases in file having [#include "catch.hpp"]
+3. g++ -std=c++14 -o test_runner <test_cases_file_name>.cpp
+4. ./test_runner
