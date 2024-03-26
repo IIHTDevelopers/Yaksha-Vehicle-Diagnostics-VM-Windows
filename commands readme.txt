@@ -1,7 +1,7 @@
 ====================================================
 for executing project
 
-g++ VehicleDiagnostics.cpp -0 vehicleDiagnostics
+g++ VehicleDiagnostics.cpp -o vehicleDiagnostics
 ./vehicleDiagnostics
 
 
