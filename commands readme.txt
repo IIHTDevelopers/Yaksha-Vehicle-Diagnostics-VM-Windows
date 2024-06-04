@@ -1,16 +1,5 @@
 ====================================================
-for executing project
+for executing main_test_cases.cpp file
 
-g++ VehicleDiagnostics.cpp -o vehicleDiagnostics
-./vehicleDiagnostics
-
-
-====================================================
-for executing test cases:
-
-g++ -std=c++14 -o test_runner <test_cases_file_name>.cpp
-./test_runner
-
-====================================================
-Library used for writing test cases
-https://github.com/catchorg/Catch2/tree/v2.x
+g++ ./main_test_cases.cpp -o main
+./main.exe
